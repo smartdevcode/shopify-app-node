@@ -6,8 +6,7 @@ export const createClient = (shop, accessToken) => {
     request: operation => {
       operation.setContext({
         headers: {
-          "X-Shopify-Access-Token": accessToken,
-          "User-Agent": `shopify-app-node ${process.env.npm_package_version}`
+          "X-Shopify-Access-Token": accessToken
         }
       });
     }
