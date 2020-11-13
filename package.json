@@ -37,7 +37,7 @@
     "js-cookie": "^2.2.1",
     "koa": "^2.8.2",
     "koa-router": "^10.0.0",
-    "koa-session": "^6.1.0",
+    "koa-session": "^6.0.0",
     "next": "^10.0.0",
     "next-env": "^1.1.0",
     "node-fetch": "^2.6.1",
@@ -67,8 +67,7 @@
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   }
 }
